@@ -3,8 +3,8 @@ from   selenium.webdriver.firefox.options import Options
 from   selenium.webdriver.common.keys     import Keys
 from   bs4                                import BeautifulSoup
 
-EMAIL = 'antontheog@gmail.com'
-PASSWORD = 'mlives*0'
+EMAIL = '#######@####.###'
+PASSWORD = '#####'
 
 def gr_login(driver):
     username = driver.find_element_by_id("userSignInFormEmail").send_keys(EMAIL)
